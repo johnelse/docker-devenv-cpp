@@ -5,7 +5,8 @@ RUN     apt-get update
 RUN     apt-get -y install \
             cmake \
             git \
-            make
+            make \
+            tig
 
 RUN     apt-get -y install \
             gcc \
