@@ -4,6 +4,7 @@ MAINTAINER john.else@gmail.com
 RUN     apt-get update
 RUN     apt-get -y install \
             cmake \
+            git \
             make
 
 RUN     apt-get -y install \
